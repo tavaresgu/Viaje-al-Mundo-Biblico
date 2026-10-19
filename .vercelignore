@@ -1,0 +1,13 @@
+.git
+.vercel
+node_modules
+dist
+*.log
+.env*
+adapt.cjs
+localize-es.cjs
+update-images.cjs
+verify*.cjs
+source-texts.json
+translations*.txt
+asset-info.json

@@ -1,0 +1,36 @@
+.cupos-wrap,.cupos-bar-bg,.cupos-footer,.cupos-header,.price-old,.precio-old,.precio-antes,.old-price,.viendo-ahora,#notif{display:none!important}
+.btn-pulse{animation:none;max-width:100%;white-space:normal}
+.btn-pulse:focus-visible,.faq-btn:focus-visible,.preview-arrow:focus-visible,.uso-btn:focus-visible{outline:3px solid #F0D393;outline-offset:5px}
+.cupos-bar-fill{display:none!important}
+#comprar{scroll-margin-top:20px}
+.europe-footer{max-width:760px;margin:24px auto;padding:16px 20px;border-top:1px solid #E2BF7233;text-align:center;color:#C5CCD3;font:13px/1.7 Inter,system-ui,sans-serif}
+.europe-footer a{text-decoration:underline;margin:0 10px}
+.preview-dots .preview-dot,.uso-dots .uso-dot{min-width:18px;min-height:18px}
+@media(max-width:480px){.btn-pulse{font-size:14px;padding:16px 18px}.hero h1{overflow-wrap:break-word}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto!important}}
+.offer-kicker{font-size:12px;letter-spacing:.13em;font-weight:800;color:#f0d393}
+.offer-title{font-size:clamp(20px,4vw,28px);font-weight:800;color:#fff;margin:8px 0 16px}
+.offer-clock{display:flex;gap:12px;justify-content:center;margin:12px 0 18px}
+.offer-time{min-width:76px;padding:12px 15px;background:#0c1520;border:1px solid #e2bf7255;border-radius:12px;box-shadow:0 8px 28px #0003}
+.offer-time strong{display:block;font-size:34px;line-height:1.2;font-variant-numeric:tabular-nums;color:#f0d393}
+.offer-time span{display:block;font-size:11px;color:#c5ccd3;text-transform:uppercase;margin-top:5px}
+.offer-after{color:#c5ccd3;font-size:14px}.offer-stock{border:1px solid #e2bf7255;border-radius:10px;background:#e2bf7210;color:#f0d393;font-size:14px;font-weight:750;padding:12px 16px;margin:20px 0 16px;text-align:center}
+.purchase-toast{position:fixed;bottom:22px;left:22px;z-index:1000;display:flex;gap:13px;align-items:center;max-width:370px;background:#152231;color:#fff;border:1px solid #e2bf7255;border-radius:16px;padding:18px 40px 18px 18px;box-shadow:0 14px 45px #0006;animation:purchase-in .3s ease-out;font-family:Inter,system-ui,sans-serif}
+.purchase-toast-icon{border-radius:50%;width:38px;height:38px;display:grid;place-items:center;flex-shrink:0;color:#e2bf72;background:#e2bf7218;font-size:22px}
+.purchase-toast small{display:block;font-size:9px;font-weight:800;letter-spacing:.08em;color:#e2bf72;margin-bottom:5px}.purchase-toast strong{display:block;font-size:14px}.purchase-toast p{font-size:12px;color:#c5ccd3;margin:3px 0}.purchase-toast span{font-size:11px;color:#a5b4c3}.purchase-toast-close{position:absolute;right:6px;top:6px;cursor:pointer;width:30px;height:30px;color:#c5ccd3;font-size:24px;background:none;border:0}.purchase-toast-close:focus-visible{outline:2px solid #e2bf72}
+.offer-time[hidden],.offer-clock[hidden],.purchase-toast[hidden],#oferta [hidden]{display:none!important}
+@keyframes purchase-in{from{opacity:0;transform:translateY(15px)}to{opacity:1;transform:translateY(0)}}
+@media(max-width:480px){.purchase-toast{left:12px;right:12px;bottom:12px;max-width:none}.offer-time{min-width:65px;padding:10px}.offer-clock{gap:8px}}
+.offer-after strong{color:#f0d393;font-size:17px;font-weight:900}
+.offer-stock{padding:17px 18px;text-align:left;border-color:#ef444455;background:linear-gradient(135deg,#ef444410,#e2bf7209)}
+.offer-stock-preview{display:block;color:#c5ccd3;font-size:9px;letter-spacing:.1em;margin-bottom:10px}
+.offer-stock-head,.offer-stock-footer{display:flex;align-items:center;justify-content:space-between;gap:10px}
+.offer-stock-head{margin-bottom:13px}
+.offer-stock-active{display:inline-flex;align-items:center;gap:7px;color:#fca5a5;font-size:12px;font-weight:850;text-transform:uppercase;letter-spacing:.04em}
+.offer-stock-active:before{content:'';width:8px;height:8px;border-radius:50%;background:#ef4444;box-shadow:0 0 10px #ef444466;flex-shrink:0}
+.offer-stock-badge{padding:3px 9px;background:#ef444422;color:#fca5a5;border-radius:5px;font-size:11px;font-weight:850;text-transform:uppercase}
+.offer-stock-bar{height:12px;background:#ffffff10;border-radius:999px;overflow:hidden}
+.offer-stock-fill{height:100%;border-radius:inherit;background:linear-gradient(90deg,#ef4444,#f97316,#e2bf72);position:relative;overflow:hidden}
+.offer-stock-fill:after{content:'';position:absolute;inset:0;background:linear-gradient(90deg,transparent,#ffffff40,transparent);animation:shimmer 2.5s ease infinite}
+.offer-stock-footer{margin-top:9px;font-size:12px;color:#c5ccd3;font-weight:500}.offer-stock-footer strong{color:#f0d393;font-weight:850}
+@media(max-width:380px){.offer-stock{padding:14px 12px}.offer-stock-active{font-size:10px}.offer-stock-badge{font-size:10px;padding:3px 6px}}

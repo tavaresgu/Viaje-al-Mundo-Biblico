@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="es-ES">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Tu acceso | Viaje al Mundo Bíblico 3D</title>
+  <meta name="description" content="Accede a una biblioteca visual de estudio con seis complementos, explorador digital y un único pago.">
+  <style>
+    *{box-sizing:border-box}body{margin:0;background:#0c1520;color:#f5f3ef;font:16px/1.65 system-ui,sans-serif}a{color:#e2bf72}main{max-width:1050px;margin:auto;padding:35px 22px 70px}.brand{font-weight:800;letter-spacing:.06em;text-decoration:none;font-size:14px}.layout{display:grid;grid-template-columns:1.1fr 1fr;gap:50px;align-items:center;margin-top:42px}.eyebrow{color:#e2bf72;letter-spacing:.15em;font-size:12px;font-weight:700}h1{font-size:clamp(30px,5vw,45px);line-height:1.15;margin:12px 0 20px}.muted{color:#c5ccd3}.product{width:100%;border-radius:20px}aside{background:#152231;border:1px solid #e2bf7233;border-radius:22px;padding:28px}h2{font-size:20px;margin-top:0}.price{font-size:44px;font-weight:800;color:#f0d393;line-height:1.2}.once{font-size:13px;color:#c5ccd3}ul{padding-left:22px}li{padding:4px 0}button{font:inherit;font-weight:800;cursor:pointer;width:100%;background:linear-gradient(135deg,#e2bf72,#f2daa3,#ce9f48);color:#0c1520;border:0;border-radius:12px;padding:17px}button:focus-visible,a:focus-visible{outline:3px solid #f0d393;outline-offset:4px}.notice{padding:16px;border:1px solid #e2bf7244;background:#0c1520;border-radius:10px;font-size:14px;margin-top:18px}.trust{font-size:12px;text-align:center;color:#c5ccd3;margin-top:18px}.links{display:flex;gap:20px;flex-wrap:wrap;font-size:13px;margin-top:24px}[hidden]{display:none!important}@media(max-width:720px){.layout{grid-template-columns:1fr;gap:25px;margin-top:26px}.product{max-width:390px;display:block;margin:auto}aside{padding:24px}}
+  </style>
+</head>
+<body>
+<main>
+  <a class="brand" href="index.html">📖 VIAJE AL MUNDO BÍBLICO 3D</a>
+  <div class="layout">
+    <section>
+      <p class="eyebrow">UNA BIBLIOTECA PARA EXPLORAR LAS ESCRITURAS</p>
+      <h1>Descubre el entorno de cada historia.</h1>
+      <p class="muted">Cartografía, escenarios tridimensionales e información histórica para acompañar tu lectura.</p>
+      <img class="product" src="imagens/1.png" alt="Vista de los volúmenes de la biblioteca bíblica" width="1254" height="1254">
+    </section>
+    <aside>
+      <h2>Tu biblioteca incluye</h2>
+      <p class="price" id="price">€16.99</p>
+      <p class="once">Un solo pago · Consulta permanente</p>
+      <ul>
+        <li>Más de 300 páginas ilustradas en PDF</li>
+        <li>Más de 100 mapas, itinerarios y escenarios</li>
+        <li>Nueve etapas desde los primeros relatos hasta Pablo</li>
+        <li>Seis volúmenes complementarios sin coste extra</li>
+        <li>Explorador cartográfico con recreaciones en vídeo</li>
+        <li>Recursos imprimibles para tu estudio y tus clases</li>
+      </ul>
+      <button type="button" id="pay" hidden>Completar mi compra de forma segura →</button>
+      <div class="notice" id="status" role="status">Estamos preparando el acceso al pago. La compra en línea todavía no está habilitada.</div>
+      <p class="trust">Entrega digital por correo electrónico · Sin envío físico<br>Garantía de devolución del vendedor durante 15 días</p>
+      <div class="links" id="links"><a href="index.html#comprar">← Volver a los detalles de la colección</a></div>
+    </aside>
+  </div>
+</main>
+<script src="config.js"></script>
+<script src="checkout.js"></script>
+</body>
+</html>

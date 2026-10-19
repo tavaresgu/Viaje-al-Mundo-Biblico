@@ -1,0 +1,11 @@
+{
+  "name": "viaje-al-mundo-biblico-3d",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sitio estático de Viaje al Mundo Bíblico 3D",
+  "scripts": {
+    "build": "node scripts/build.cjs",
+    "test": "node verify.cjs && node verify-flow.cjs && node verify-promotion.cjs"
+  },
+  "engines": { "node": ">=20" }
+}
